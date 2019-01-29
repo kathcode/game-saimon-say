@@ -19,7 +19,10 @@
     <button id="btnStart" class="btn-start" onclick="startGame()">Start game!</button>
   </div>
   <div id="winner-box"></div>
-  <div id="game-over-box"></div>
+  <div id="game-over-box" onclick="reloadGame()"></div>
+
+  <audio src="songs/piano.mp3" id="correct-color"></audio>
+  <audio src="songs/wrong.wav" id="wrong-color"></audio>
   <!-- Javascript -->
   <script src="app.js"></script>
 </body>
